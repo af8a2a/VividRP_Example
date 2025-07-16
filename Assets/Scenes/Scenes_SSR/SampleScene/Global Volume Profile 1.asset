@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7178929092323539133
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e553285553734e2880b4d118d938b587, type: 3}
+  m_Name: Shadows
+  m_EditorClassIdentifier: 
+  active: 1
+  rayTracing:
+    m_OverrideState: 0
+    m_Value: 0
+  dirShadowsRayLength:
+    m_OverrideState: 0
+    m_Value: 1000
+  sampleCount:
+    m_OverrideState: 0
+    m_Value: 1
+  radius:
+    m_OverrideState: 0
+    m_Value: 0.1
+  characterLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 0
+  enable:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeMode:
+    m_OverrideState: 1
+    m_Value: 0
+  shadowAlgo:
+    m_OverrideState: 1
+    m_Value: 0
+  intensity:
+    m_OverrideState: 0
+    m_Value: 0.5
+  maxShadowDistance:
+    m_OverrideState: 0
+    m_Value: 150
+  cascadeShadowSplitCount:
+    m_OverrideState: 0
+    m_Value: 4
+  cascadeShadowSplit0:
+    m_OverrideState: 0
+    m_Value: 0.05
+  cascadeShadowSplit1:
+    m_OverrideState: 0
+    m_Value: 0.1
+  cascadeShadowSplit2:
+    m_OverrideState: 0
+    m_Value: 0.15
+  cascadeShadowSplit3:
+    m_OverrideState: 0
+    m_Value: 0.2
+  cascadeShadowSplit4:
+    m_OverrideState: 0
+    m_Value: 0.4
+  cascadeShadowSplit5:
+    m_OverrideState: 0
+    m_Value: 0.6
+  cascadeShadowSplit6:
+    m_OverrideState: 0
+    m_Value: 0.8
+  cascadeBorder:
+    m_OverrideState: 0
+    m_Value: 0.2
+  penumbra:
+    m_OverrideState: 0
+    m_Value: 1
+  shadowRampTex:
+    m_OverrideState: 0
+    m_Value: {fileID: 2800000, guid: afea1fed01220fc4491569f42c01f3f4, type: 3}
+  scatterR:
+    m_OverrideState: 0
+    m_Value: 0.3
+  scatterG:
+    m_OverrideState: 0
+    m_Value: 0.1
+  scatterB:
+    m_OverrideState: 0
+    m_Value: 0.07
+  occlusionPenumbra:
+    m_OverrideState: 0
+    m_Value: 1
+  shadowScatterMode:
+    m_OverrideState: 0
+    m_Value: 2
+  perObjectShadowPenumbra:
+    m_OverrideState: 0
+    m_Value: 1
+  shadowDenoise:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile 1
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -7178929092323539133}
