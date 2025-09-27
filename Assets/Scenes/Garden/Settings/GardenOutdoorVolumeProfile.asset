@@ -116,6 +116,37 @@ MonoBehaviour:
   dirtIntensity:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-825849483168925221
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58392b6c08d48c9abefb53e458574a3, type: 3}
+  m_Name: Fog
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 0
+    m_Value: 0
+  meanFreePath:
+    m_OverrideState: 0
+    m_Value: 1000
+  albedo:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  range:
+    m_OverrideState: 0
+    m_Value: 64
+  sliceDistrubutionUniform:
+    m_OverrideState: 0
+    m_Value: 0.5
+  sliceCount:
+    m_OverrideState: 0
+    m_Value: 256
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,3 +164,58 @@ MonoBehaviour:
   - {fileID: -5627355476832542736}
   - {fileID: -1956406881170377316}
   - {fileID: -2383039380055428478}
+--- !u!114 &6421514611582581211
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: VolumetricFog
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime:UnityEngine.Rendering.Universal:VolumetricFog
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  meanFreePath:
+    m_OverrideState: 1
+    m_Value: 1000
+  albedo:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  range:
+    m_OverrideState: 1
+    m_Value: 64
+  baseHeight:
+    m_OverrideState: 1
+    m_Value: 0
+  maximumHeight:
+    m_OverrideState: 1
+    m_Value: 500
+  m_FogControlMode:
+    m_OverrideState: 1
+    m_Value: 1
+  m_ResolutionDepthRatio:
+    m_OverrideState: 1
+    m_Value: 0.5
+  m_VolumetricFogBudget:
+    m_OverrideState: 1
+    m_Value: 0.25
+  screenResolutionPercentage:
+    m_OverrideState: 1
+    m_Value: 12.5
+  volumeSliceCount:
+    m_OverrideState: 1
+    m_Value: 256
+  depthExtent:
+    m_OverrideState: 1
+    m_Value: 64
+  sliceDistributionUniformity:
+    m_OverrideState: 1
+    m_Value: 0.75
+  anisotropy:
+    m_OverrideState: 1
+    m_Value: 0

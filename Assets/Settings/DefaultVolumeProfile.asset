@@ -944,6 +944,64 @@ MonoBehaviour:
   m_Name: VolumeComponentSupportedEverywhere
   m_EditorClassIdentifier: 
   active: 1
+--- !u!114 &-1438063470032533726
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547b37398f9b4e508661eb44508c519b, type: 3}
+  m_Name: LightPropagationVolumes
+  m_EditorClassIdentifier: 
+  active: 1
+  Enabled:
+    m_OverrideState: 1
+    m_Value: 0
+  GridSize:
+    m_OverrideState: 1
+    m_Value: 32
+  BoundsSize:
+    m_OverrideState: 1
+    m_Value: 40
+  BoundsForwardBias:
+    m_OverrideState: 1
+    m_Value: 0.5
+  InjectionIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+  InjectionDepthBias:
+    m_OverrideState: 1
+    m_Value: 0.25
+  InjectionNormalBias:
+    m_OverrideState: 1
+    m_Value: 0.25
+  Occlusion:
+    m_OverrideState: 1
+    m_Value: 1
+  SkyOcclusion:
+    m_OverrideState: 1
+    m_Value: 1
+  OcclusionAmplification:
+    m_OverrideState: 1
+    m_Value: 5
+  SkyOcclusionBias:
+    m_OverrideState: 1
+    m_Value: 0.5
+  SkyOcclusionAmplification:
+    m_OverrideState: 1
+    m_Value: 2
+  PropagationPasses:
+    m_OverrideState: 1
+    m_Value: 8
+  PropagationIntensity:
+    m_OverrideState: 1
+    m_Value: 1
+  SkyOcclusionPropagationIntensity:
+    m_OverrideState: 1
+    m_Value: 0.5
 --- !u!114 &-1410297666881709256
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1184,6 +1242,7 @@ MonoBehaviour:
   - {fileID: 2967031037772257650}
   - {fileID: 270745077634933702}
   - {fileID: 9164485008035185828}
+  - {fileID: 5563794461145643808}
 --- !u!114 &270745077634933702
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2127,6 +2186,37 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 1}
     hdr: 0
+--- !u!114 &5563794461145643808
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58392b6c08d48c9abefb53e458574a3, type: 3}
+  m_Name: Fog
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 0
+  meanFreePath:
+    m_OverrideState: 1
+    m_Value: 1000
+  albedo:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  range:
+    m_OverrideState: 1
+    m_Value: 64
+  sliceDistrubutionUniform:
+    m_OverrideState: 1
+    m_Value: 0.5
+  sliceCount:
+    m_OverrideState: 1
+    m_Value: 256
 --- !u!114 &5584763520783256738
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2225,6 +2315,9 @@ MonoBehaviour:
   m_RayMaxIterations:
     m_OverrideState: 1
     m_Value: 32
+  useNVSER:
+    m_OverrideState: 0
+    m_Value: 0
   rayMiss:
     m_OverrideState: 1
     m_Value: 3
@@ -2688,6 +2781,9 @@ MonoBehaviour:
   m_RayMaxIterations:
     m_OverrideState: 1
     m_Value: 32
+  useNVSER:
+    m_OverrideState: 1
+    m_Value: 0
   rayMiss:
     m_OverrideState: 1
     m_Value: 3

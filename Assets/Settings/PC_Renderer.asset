@@ -80,6 +80,19 @@ MonoBehaviour:
   m_Name: ScreenSpaceGlobalIlluminationFeature
   m_EditorClassIdentifier: 
   m_Active: 1
+--- !u!114 &-1365751720360258624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ddd4bd7d210454a9f1bf24b4f8ebfbb, type: 3}
+  m_Name: SkyFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
 --- !u!114 &-1163973599836362361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,6 +112,19 @@ MonoBehaviour:
     ShadowResolution: 2048
     DepthBias: 2
     NormalBias: 3
+--- !u!114 &-522901762118365660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25011374f2c04128bb434813aeb1ff68, type: 3}
+  m_Name: ExposureFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +167,9 @@ MonoBehaviour:
   - {fileID: 3050789385213510144}
   - {fileID: -7295501601037252422}
   - {fileID: 685620611223942068}
-  m_RendererFeatureMap: ad6b866f10d7b46c7032cdb252846984fe046778210afd2fbeb3cfe28151096af4914738ae621d0cba01a35a6ded112d972e7a713dd56d008729d28d2dbcd8efb29ac245f17d7279e0e867998767a67a665d45ae19903933f2faf26e91ba866a6764cf833b243d23eb371043d314aadb00022f36c894562aba88e173f22bc19ab473b03650d08309
+  - {fileID: -522901762118365660}
+  - {fileID: -1365751720360258624}
+  m_RendererFeatureMap: ad6b866f10d7b46c7032cdb252846984fe046778210afd2fbeb3cfe28151096af4914738ae621d0cba01a35a6ded112d972e7a713dd56d008729d28d2dbcd8efb29ac245f17d7279e0e867998767a67a665d45ae19903933f2faf26e91ba866a6764cf833b243d23eb371043d314aadb00022f36c894562aba88e173f22bc19ab473b03650d08309244e82289e47bef8c0538ce00be00bed
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -180,6 +208,20 @@ MonoBehaviour:
   m_Name: RaytracingCoreFeature
   m_EditorClassIdentifier: 
   m_Active: 1
+--- !u!114 &395492532121998236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f8f22c3df675e4ebb7549527109555, type: 3}
+  m_Name: FPVolumetricFog
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  config: {fileID: 11400000, guid: 27e9614d6e4dc3540b3900969819cf7e, type: 2}
 --- !u!114 &685620611223942068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,6 +325,19 @@ MonoBehaviour:
   m_HighQualityUpscaling: 1
   m_OverrideAmbientLighting: 1
   m_BackfaceLighting: 0
+--- !u!114 &7377095500986604402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2427c93350a34405bf8514035a1c5e0a, type: 3}
+  m_Name: VolumetricLightingFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
 --- !u!114 &7640727861108650942
 MonoBehaviour:
   m_ObjectHideFlags: 0

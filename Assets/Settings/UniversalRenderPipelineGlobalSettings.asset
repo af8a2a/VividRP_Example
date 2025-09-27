@@ -87,6 +87,8 @@ MonoBehaviour:
       - rid: 5957558914970812479
       - rid: 5957558914970812480
       - rid: 5957558948861575232
+      - rid: 5957559072301776959
+      - rid: 5395107879937114176
     m_RuntimeSettings:
       m_List: []
   m_AssetVersion: 8
@@ -480,13 +482,13 @@ MonoBehaviour:
       type: {class: VolumetricLightRuntimeResource, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         _version: 0
-        m_GenMaxZComputeShader: {instanceID: 23042}
-        m_FogInitializeComputeShader: {instanceID: 23044}
-        m_VolumetricLightingComputeShader: {instanceID: 23046}
-        m_VolumetricLightingFilteringComputeShader: {instanceID: 23048}
-        m_VolumetricFogIndirectComputeShader: {instanceID: 23050}
-        m_FractalNoiseTexture: {instanceID: 23052}
-        m_VolumetricTextureFogMat: {instanceID: 23054}
+        m_MaxZCS: {fileID: 7200000, guid: e881d3fe96384213aed22c852f95858b, type: 3}
+        m_DefaultFogVolumeShader: {fileID: 4800000, guid: 55166a443a0c4e21870232f0c41cca87, type: 3}
+        m_FinalShader: {fileID: 4800000, guid: bd99e41694634200906240f9d6e2f78e, type: 3}
+        m_VolumeInitializeCS: {fileID: 7200000, guid: 42ff0ab878be4d5baa0f73718e3197c5, type: 3}
+        m_VolumetricFogIndirectCS: {fileID: 7200000, guid: 47a7902479bc48f9b0c388758b9e8cdc, type: 3}
+        m_VolumetricLightingCS: {fileID: 7200000, guid: 37efb200736f4792ac1f1eb94516b92c, type: 3}
+        m_VolumetricLightingFilteringCS: {fileID: 7200000, guid: 8fd23cbd5d554ffa828605829472755b, type: 3}
     - rid: 3371270439473512514
       type: {class: PreIntegratedRuntimeShader, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -509,6 +511,10 @@ MonoBehaviour:
       type: {class: UniversalRenderPipelineEditorAssets, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_DefaultSettingsVolumeProfile: {fileID: 11400000, guid: eda47df5b85f4f249abf7abd73db2cb2, type: 2}
+    - rid: 5395107879937114176
+      type: {class: SunShaftRuntimeShader, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
+      data:
+        _version: 0
     - rid: 5957558654414880831
       type: {class: IRuntimeResource, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -564,6 +570,11 @@ MonoBehaviour:
         m_ShadowClassifyShader: {fileID: 7200000, guid: 0817a987bae248aab62fca4a17dfb35b, type: 3}
         m_ShadowmapResolveShader: {fileID: 7200000, guid: 3afea541b11a4dfea11870677ee2d0bc, type: 3}
         m_shadowmapFilterShader: {fileID: 7200000, guid: 5ac079f11bd64f9e91f2df0cd703f425, type: 3}
+    - rid: 5957559072301776959
+      type: {class: LPVRuntimeShader, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
+      data:
+        _version: 0
+        _injectPS: {fileID: 4800000, guid: 670fe3fc06a9403d9a3c00f13c24138d, type: 3}
     - rid: 6852985685364965376
       type: {class: URPShaderStrippingSetting, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
