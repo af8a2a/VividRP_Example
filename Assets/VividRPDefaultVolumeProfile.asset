@@ -1,0 +1,829 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8992399281418769252
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 349bdcc5d32549b4cbbf78d01b969e04, type: 3}
+  m_Name: SliderDebugVolume
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.SliderDebugVolume
+  active: 1
+  slider:
+    m_OverrideState: 1
+    m_Value: 50
+--- !u!114 &-5240716395670402352
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8406d00ca74312e498a6e67c52cb3ef9, type: 3}
+  m_Name: GPUDrivenSettingsVolume
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.GPUDrivenSettingsVolume
+  active: 1
+  forcedMeshLODNodeDepth:
+    m_OverrideState: 1
+    m_Value: -1
+  meshLODErrorThreshold:
+    m_OverrideState: 1
+    m_Value: 50
+--- !u!114 &-4730707143727924603
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ee3354863942144839e6e3259c4cc2, type: 3}
+  m_Name: SkySettingsVolume
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.SkySettingsVolume
+  active: 1
+  skyType:
+    m_OverrideState: 1
+    m_Value: 1
+  updateMode:
+    m_OverrideState: 1
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-4020169998739666134
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6cdf2dc8a299f41a7ebc13f59142ae, type: 3}
+  m_Name: ColorCurves
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.ColorCurves
+  active: 1
+  master:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 2
+      m_Loop: 0
+      m_ZeroValue: 0
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  red:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 2
+      m_Loop: 0
+      m_ZeroValue: 0
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  green:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 2
+      m_Loop: 0
+      m_ZeroValue: 0
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  blue:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 2
+      m_Loop: 0
+      m_ZeroValue: 0
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  hueVsHue:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 0
+      m_Loop: 1
+      m_ZeroValue: 0.5
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  hueVsSat:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 0
+      m_Loop: 1
+      m_ZeroValue: 0.5
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  satVsSat:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 0
+      m_Loop: 0
+      m_ZeroValue: 0.5
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  lumVsSat:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 0
+      m_Loop: 0
+      m_ZeroValue: 0.5
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_SelectedCurve: 0
+--- !u!114 &-1038393780722185335
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5042413561e1ff44b128ed18244326b, type: 3}
+  m_Name: OverlayDebugVolume
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.OverlayDebugVolume
+  active: 1
+  overlayAmount:
+    m_OverrideState: 1
+    m_Value: 0
+  arraySlice:
+    m_OverrideState: 1
+    m_Value: 0
+  exposure:
+    m_OverrideState: 1
+    m_Value: 0
+  opacity:
+    m_OverrideState: 1
+    m_Value: 1
+  visualizationMode:
+    m_OverrideState: 1
+    m_Value: 0
+  depthMode:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-960670651359075347
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a562ca7d51743f47a9a8f8a165fcf64, type: 3}
+  m_Name: HDRISkyVolume
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.HDRISkyVolume
+  active: 1
+  skyCubemap:
+    m_OverrideState: 1
+    m_Value: {fileID: 8900000, guid: 6ef3a4217fa94c6ab3c3ebef707ef3f1, type: 3}
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  exposure:
+    m_OverrideState: 1
+    m_Value: 1
+  rotation:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-489198093279453457
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7425b2192c7bcb74bb70e15f94763632, type: 3}
+  m_Name: PhysicallyBasedSkyVolume
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.PhysicallyBasedSkyVolume
+  active: 1
+  type:
+    m_OverrideState: 1
+    m_Value: 0
+  planetRadius:
+    m_OverrideState: 1
+    m_Value: 6378100
+  airMaximumAltitude:
+    m_OverrideState: 1
+    m_Value: 55261.973
+  airDensityR:
+    m_OverrideState: 1
+    m_Value: 0.04534
+  airDensityG:
+    m_OverrideState: 1
+    m_Value: 0.10237241
+  airDensityB:
+    m_OverrideState: 1
+    m_Value: 0.23264056
+  airTint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  aerosolMaximumAltitude:
+    m_OverrideState: 1
+    m_Value: 8289.296
+  aerosolDensity:
+    m_OverrideState: 1
+    m_Value: 0.01192826
+  aerosolTint:
+    m_OverrideState: 1
+    m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  aerosolAnisotropy:
+    m_OverrideState: 1
+    m_Value: 0.8
+  ozoneDensityDimmer:
+    m_OverrideState: 1
+    m_Value: 1
+  ozoneMinimumAltitude:
+    m_OverrideState: 1
+    m_Value: 20000
+  ozoneLayerWidth:
+    m_OverrideState: 1
+    m_Value: 20000
+  groundTint:
+    m_OverrideState: 1
+    m_Value: {r: 0.12, g: 0.1, b: 0.09, a: 1}
+  exposure:
+    m_OverrideState: 1
+    m_Value: 1
+  renderSunDisk:
+    m_OverrideState: 1
+    m_Value: 1
+  sunDiskSize:
+    m_OverrideState: 1
+    m_Value: 1
+  enableHeightFog:
+    m_OverrideState: 1
+    m_Value: 0
+  fogBaseHeight:
+    m_OverrideState: 1
+    m_Value: 0
+  fogDensity:
+    m_OverrideState: 1
+    m_Value: 0.01
+  fogMaxDistance:
+    m_OverrideState: 1
+    m_Value: 5000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: VividRPDefaultVolumeProfile
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
+  components:
+  - {fileID: 414509075493877815}
+  - {fileID: -960670651359075347}
+  - {fileID: 877607167936714575}
+  - {fileID: 6676553920335806551}
+  - {fileID: 6519451905579928143}
+  - {fileID: -4020169998739666134}
+  - {fileID: -8992399281418769252}
+  - {fileID: 776368610907944563}
+  - {fileID: 908378909914206715}
+  - {fileID: 5339086475222777287}
+  - {fileID: 6823097677875682831}
+  - {fileID: -489198093279453457}
+  - {fileID: -4730707143727924603}
+  - {fileID: 870644209219874651}
+  - {fileID: -5240716395670402352}
+  - {fileID: 8891686263672384902}
+  - {fileID: -1038393780722185335}
+  - {fileID: 1829536097624419279}
+--- !u!114 &414509075493877815
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339314b22e819484fb06b9818e5392b6, type: 3}
+  m_Name: ChannelMixer
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.ChannelMixer
+  active: 1
+  redOutRedIn:
+    m_OverrideState: 1
+    m_Value: 100
+  redOutGreenIn:
+    m_OverrideState: 1
+    m_Value: 0
+  redOutBlueIn:
+    m_OverrideState: 1
+    m_Value: 0
+  greenOutRedIn:
+    m_OverrideState: 1
+    m_Value: 0
+  greenOutGreenIn:
+    m_OverrideState: 1
+    m_Value: 100
+  greenOutBlueIn:
+    m_OverrideState: 1
+    m_Value: 0
+  blueOutRedIn:
+    m_OverrideState: 1
+    m_Value: 0
+  blueOutGreenIn:
+    m_OverrideState: 1
+    m_Value: 0
+  blueOutBlueIn:
+    m_OverrideState: 1
+    m_Value: 100
+--- !u!114 &776368610907944563
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ff19157c1e6db42b2ea609d0842ac0, type: 3}
+  m_Name: FilmGrain
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.FilmGrain
+  active: 1
+  type:
+    m_OverrideState: 1
+    m_Value: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0
+  response:
+    m_OverrideState: 1
+    m_Value: 0.8
+  texture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+--- !u!114 &870644209219874651
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66c0328307c646a488f0f81da900a29f, type: 3}
+  m_Name: ClusterDebugVolume
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.ClusterDebugVolume
+  active: 1
+  tileClusterDebug:
+    m_OverrideState: 1
+    m_Value: 0
+  tileClusterDebugByCategory:
+    m_OverrideState: 1
+    m_Value: 1
+  clusterDebugMode:
+    m_OverrideState: 1
+    m_Value: 0
+  clusterDebugDistance:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &877607167936714575
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dbc8bb7174d6547ac1e27575522798, type: 3}
+  m_Name: WhiteBalance
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.WhiteBalance
+  active: 1
+  temperature:
+    m_OverrideState: 1
+    m_Value: 0
+  tint:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &908378909914206715
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2cc29f5500429eb17a204c18cdb62a, type: 3}
+  m_Name: Tonemapping
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.Tonemapping
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 0
+  useFullACES:
+    m_OverrideState: 1
+    m_Value: 0
+  maxBrightness:
+    m_OverrideState: 1
+    m_Value: 1
+  contrast:
+    m_OverrideState: 1
+    m_Value: 1.11
+  linearSectionStart:
+    m_OverrideState: 1
+    m_Value: 0.2
+  linearSectionLength:
+    m_OverrideState: 1
+    m_Value: 0.4
+  blackPow:
+    m_OverrideState: 1
+    m_Value: 1.29
+  blackMin:
+    m_OverrideState: 1
+    m_Value: 0
+  toeStrength:
+    m_OverrideState: 1
+    m_Value: 0
+  toeLength:
+    m_OverrideState: 1
+    m_Value: 0.5
+  shoulderStrength:
+    m_OverrideState: 1
+    m_Value: 0
+  shoulderLength:
+    m_OverrideState: 1
+    m_Value: 0.5
+  shoulderAngle:
+    m_OverrideState: 1
+    m_Value: 0
+  gamma:
+    m_OverrideState: 1
+    m_Value: 1
+  lutTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  lutContribution:
+    m_OverrideState: 1
+    m_Value: 1
+  neutralHDRRangeReductionMode:
+    m_OverrideState: 1
+    m_Value: 2
+  acesPreset:
+    m_OverrideState: 1
+    m_Value: 3
+  fallbackMode:
+    m_OverrideState: 1
+    m_Value: 1
+  hueShiftAmount:
+    m_OverrideState: 1
+    m_Value: 0
+  detectPaperWhite:
+    m_OverrideState: 1
+    m_Value: 0
+  paperWhite:
+    m_OverrideState: 1
+    m_Value: 300
+  detectBrightnessLimits:
+    m_OverrideState: 1
+    m_Value: 1
+  minNits:
+    m_OverrideState: 1
+    m_Value: 0.005
+  maxNits:
+    m_OverrideState: 1
+    m_Value: 1000
+--- !u!114 &1829536097624419279
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd486065ce11414fa40e631affc4900, type: 3}
+  m_Name: ProbeVolumesOptions
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.ProbeVolumesOptions
+  active: 1
+  normalBias:
+    m_OverrideState: 1
+    m_Value: 0.05
+  viewBias:
+    m_OverrideState: 1
+    m_Value: 0.1
+  scaleBiasWithMinProbeDistance:
+    m_OverrideState: 1
+    m_Value: 0
+  samplingNoise:
+    m_OverrideState: 1
+    m_Value: 0.1
+  animateSamplingNoise:
+    m_OverrideState: 1
+    m_Value: 1
+  leakReductionMode:
+    m_OverrideState: 1
+    m_Value: 2
+  minValidDotProductValue:
+    m_OverrideState: 1
+    m_Value: 0.1
+  occlusionOnlyReflectionNormalization:
+    m_OverrideState: 1
+    m_Value: 1
+  intensityMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+  skyOcclusionIntensityMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+  worldOffset:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0, z: 0}
+--- !u!114 &5339086475222777287
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf37dc24018bcc4ba0811af9186c86d, type: 3}
+  m_Name: LiftGammaGain
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.LiftGammaGain
+  active: 1
+  lift:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  gamma:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  gain:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+--- !u!114 &6519451905579928143
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1f60d59e584f24ea58cbeaad205dc0, type: 3}
+  m_Name: ShadowsMidtonesHighlights
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.ShadowsMidtonesHighlights
+  active: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  midtones:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  highlights:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  shadowsStart:
+    m_OverrideState: 1
+    m_Value: 0
+  shadowsEnd:
+    m_OverrideState: 1
+    m_Value: 0.3
+  highlightsStart:
+    m_OverrideState: 1
+    m_Value: 0.55
+  highlightsEnd:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &6676553920335806551
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8985609ef7e23468402501001138e1, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.ColorAdjustments
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0
+  contrast:
+    m_OverrideState: 1
+    m_Value: 0
+  colorFilter:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 1
+    m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &6823097677875682831
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c3045fd1ca33ca40b3be2e5f53dffbc, type: 3}
+  m_Name: RayTracingSettingsVolume
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.RayTracingSettingsVolume
+  active: 1
+  rayBias:
+    m_OverrideState: 1
+    m_Value: 0.001
+  distantRayBias:
+    m_OverrideState: 1
+    m_Value: 0.001
+  extendShadowCulling:
+    m_OverrideState: 1
+    m_Value: 0
+  extendCameraCulling:
+    m_OverrideState: 1
+    m_Value: 0
+  buildMode:
+    m_OverrideState: 1
+    m_Value: 0
+  cullingMode:
+    m_OverrideState: 1
+    m_Value: 0
+  cullingDistance:
+    m_OverrideState: 1
+    m_Value: 1000
+  minSolidAngle:
+    m_OverrideState: 1
+    m_Value: 4
+  layerMask:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  rayTracingModeMask:
+    m_OverrideState: 1
+    m_Value: 30
+  buildFlagsStaticGeometries:
+    m_OverrideState: 1
+    m_Value: 0
+  buildFlagsDynamicGeometries:
+    m_OverrideState: 1
+    m_Value: 0
+  enableCompaction:
+    m_OverrideState: 1
+    m_Value: 0
+  sigmaDenoisingRange:
+    m_OverrideState: 1
+    m_Value: 500000
+  sigmaPlaneDistanceSensitivity:
+    m_OverrideState: 1
+    m_Value: 0.02
+  sigmaMaxStabilizedFrameNum:
+    m_OverrideState: 1
+    m_Value: 5
+--- !u!114 &8891686263672384902
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4770317d9f75b74d931eb99a98a4151, type: 3}
+  m_Name: SplitToning
+  m_EditorClassIdentifier: VividRP.Runtime::VividRP.Runtime.SplitToning
+  active: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+  highlights:
+    m_OverrideState: 1
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    hdr: 0
+  balance:
+    m_OverrideState: 1
+    m_Value: 0

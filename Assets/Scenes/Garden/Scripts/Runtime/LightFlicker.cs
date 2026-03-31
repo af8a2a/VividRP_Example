@@ -28,7 +28,7 @@ public class LightFlicker : MonoBehaviour
 
     void Start()
     {
-        Random.InitState(gameObject.GetInstanceID());
+        Random.InitState(gameObject.GetEntityId().GetHashCode());
         m_XSeed = Random.value*248;
         m_YSeed = Random.value*248;
         m_ZSeed = Random.value*248;
